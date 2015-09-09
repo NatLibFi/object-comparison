@@ -4,7 +4,7 @@
     "main": "lib/main",
     "dependencies": {
 	"amdefine": "0.1.*",
-	"es6-shim-compat": "file:../es6-shim-compat"
+	"es6-polyfills": "https://github.com/NatLibFi/es6-polyfills"
     },
     "devDependencies": {
 	"expect.js": "0.3.*",
