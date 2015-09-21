@@ -1,6 +1,6 @@
 # Object comparison
 
-A function to check if two Javascript object are equal enough. Returns a boolean indicating whether the objects are equal or not.
+A function to check if two Javascript objects are equal enough. Returns a boolean indicating whether the objects are equal or not.
 
 **ONLY SUPPORTS JSON-SERIALIZABLE OBJECTS. IN OTHER WORDS: FUNCTION PROPERTIES CANNOT BE COMPARED**
 
