@@ -131,6 +131,14 @@
 		)).to.equal(true);
 	    });
 
+	    it('Should return true because string values are compared case-insensitively', function() {
+		expect(objectCompare(
+		    'foo',
+		    'FOO',
+		    {caseSensitive: false}
+		)).to.equal(true);
+	    });
+
 	});
     });
 

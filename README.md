@@ -40,6 +40,7 @@ The functions takes an object as a third argument which can have the following p
 
 * **strict** (*boolean*): If true, primitive types are compared with strict equality operator (===) (**Default**: *true*)
 * **order** (*boolean*): If true, array elements must be in same order (**Default**: *true*)
+* **caseSensitive** (*boolean*): If true, string values (As such, as array values or as object values) are compared case-sensitive. (**Default**: *true*)
 
 ## License and copyright
 
