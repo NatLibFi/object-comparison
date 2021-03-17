@@ -29,25 +29,26 @@
     "lint": "jshint .",
     "test-nodejs": "mocha",
     "test-browser": "karma start",
-    "test": "npm run test-nodejs && npm run test-browser",
+    "test-with-browser": "npm run test-nodejs && npm run test-browser",
+    "test": "npm run test-nodejs",
     "coverage": "istanbul cover _mocha",
     "check": "npm run lint && npm run test && npm run coverage",
     "travisci": "npm run check",
     "publish-to-npm": "npm install && npm run check && npm publish"
   },
   "dependencies": {
-    "es6-polyfills": "^1.0.1"
+    "@natlibfi/es6-polyfills": "^2.0.1"
   },
   "devDependencies": {
     "chai": "^3.2.0",
+    "codeclimate-test-reporter": "^0.5.1",
+    "istanbul": "^0.4.5",
     "jshint": "^2.8.0",
-    "mocha": "^2.3.2",
-    "istanbul": "^0.3.20",
-    "karma": "^0.13.19",
+    "karma": "^6.2.0",
     "karma-mocha": "^0.2.1",
+    "karma-phantomjs-launcher": "^1.0.4",
     "karma-requirejs": "^0.2.3",
-    "karma-phantomjs-launcher": "^0.2.3",
-    "phantomjs-prebuilt": "^2.1.5",
-    "codeclimate-test-reporter": "^0.1.1"
+    "mocha": "^8.3.2",
+    "phantomjs-prebuilt": "^2.1.5"
   }
 }
