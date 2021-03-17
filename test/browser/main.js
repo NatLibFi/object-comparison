@@ -19,8 +19,8 @@
     paths: {
       'chai': 'node_modules/chai/chai',
       'chai-as-promised': 'node_modules/chai-as-promised/lib/chai-as-promised',
-      'es6-polyfills': 'node_modules/es6-polyfills',
-      'es6-object-assign': 'node_modules/es6-polyfills/node_modules/es6-object-assign'
+      '@natlibfi/es6-polyfills': 'node_modules/@natlibfi/es6-polyfills',
+      'es6-object-assign': 'node_modules/@natlibfi/es6-polyfills/node_modules/es6-object-assign'
     },
     deps: spec_list,
     callback: window.__karma__.start
